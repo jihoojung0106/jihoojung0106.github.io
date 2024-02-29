@@ -21,10 +21,7 @@ Hello! I'm an undergraduate student at Seoul National University, majoring in Ec
   - *Mobile App Developer* (Jan 2023 - Mar 2023)
   - Engaged as a Full Stack App Developer proficient in Django and React Native, responsible for crafting API architecture and enhancing application functionality.
   
-- **SNU Human-Computer Interaction Lab** (Seoul, Korea)
-  - *Research Intern* (Mar 2023 - Aug 2023)
-  - Participated in the development of AI-driven image recognition technology for extracting posture information from work motion videos.
-  
+
 - **SNU Computing and Memory Architecture Laboratory** (Seoul, Korea)
   - *Research Intern* (July 2023 - November 2023)
   - Engaged in an in-depth investigation and research on the advanced field of neural radiance field.
