@@ -31,7 +31,7 @@ Hello! I'm an undergraduate student at Seoul National University, majoring in Ec
 
 - **SNU Music & Audio Research Group** (Suwon, Korea)
   - *Research Intern* (January 2024 - February 2024)
-  - Currently implementing [SingSong: Generating Musical Accompaniments from Singing](https://storage.googleapis.com/sing-song/index.html) paper by Google Research from scratch,utilizing Transformer models for music generation from vocal inputs.
+  - Implemented [SingSong: Generating Musical Accompaniments from Singing](https://storage.googleapis.com/sing-song/index.html) paper by Google Research from scratch with modifications, utilizing Transformer models for music generation from vocal inputs.
 
 
 ## Projects
