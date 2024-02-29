@@ -37,7 +37,7 @@ Hello! I'm an undergraduate student at Seoul National University, majoring in Ec
 ## Projects
 - **CT reconstruction**
   - Implemented and assessed the feasibility of a CPU-based FDK algorithm, incorporated the characteristics of the half-fan detector into the weighting process, and improved image quality through the application of diverse filter functions.
-  - [Github Link](https://github.com/jihoojung0106/cbct_recon)
+  - [Github Link](https://github.com/jihoojung0106/cbct_recon), [Project Link](https://jihoojung0106.github.io/posts/CTReconstruction/)
 
 - **Improving Preprocessing for LipReading**
   - Explored the effectiveness of a preprocessing technique aimed at enhancing lip segmentation to improve lipreading accuracy. Leveraged BlazeFace and BiseNet models to highlight lip regions in video data, subsequently training the LipNet model on this refined dataset.
