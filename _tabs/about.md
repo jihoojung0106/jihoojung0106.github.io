@@ -3,7 +3,7 @@
 icon: fas fa-info-circle
 order: 1
 ---
-Hello! I'm an undergraduate student at Seoul National University, majoring in Economics and Computer Science. My research interests revolve around music generation and audio-visual multimodal learning.
+Hello! I'm an undergraduate student at Seoul National University, majoring in Economics and Computer Science. My research interests revolve around audio-visual multimodal learning and audio generation.
 
 ## Education
 - **Seoul National University** (Seoul, Korea)
@@ -37,6 +37,7 @@ Hello! I'm an undergraduate student at Seoul National University, majoring in Ec
 ## Projects
 - **CT reconstruction**
   - Implemented and assessed the feasibility of a CPU-based FDK algorithm, incorporated the characteristics of the half-fan detector into the weighting process, and improved image quality through the application of diverse filter functions.
+  - [Github Link](https://github.com/jihoojung0106/cbct_recon)
 
 - **Improving Preprocessing for LipReading**
   - Explored the effectiveness of a preprocessing technique aimed at enhancing lip segmentation to improve lipreading accuracy. Leveraged BlazeFace and BiseNet models to highlight lip regions in video data, subsequently training the LipNet model on this refined dataset.

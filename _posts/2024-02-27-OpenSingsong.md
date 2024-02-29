@@ -1,11 +1,9 @@
 ---
-title: "Open-SingSong"
+title: "Open-SingSong :An Implementation of 'SingSong: Generating Musical Accompaniments from Singing’"
 date: 2024-02-27 12:15:20 +/-0800
 categories: [Audio, MusicGeneration]
 tags: [transformers]     # TAG names should always be lowercase
 ---
-
-# Open-SingSong :An Implementation of 'SingSong: Generating Musical Accompaniments from Singing’
 
 Project Repository : [https://github.com/jihoojung0106/open-singsong](https://github.com/jihoojung0106/open-singsong)
 
