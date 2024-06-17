@@ -1,5 +1,5 @@
 ---
-title: "Audio-Visual Speech Separation with Diffusion-based Generative Models"
+title: "Audio-Visual Speech Separation with Diffusion based Generative Models"
 date: 2024-06-17 12:15:20 +/-0800
 categories: [Audio, Speech_Separation]
 tags: [diffusion]     # TAG names should always be lowercase
