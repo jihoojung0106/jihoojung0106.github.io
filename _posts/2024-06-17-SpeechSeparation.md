@@ -5,6 +5,7 @@ categories: [Audio, Speech_Separation]
 tags: [diffusion]     # TAG names should always be lowercase
 ---
 
+
 Project Repository : [https://github.com/jihoojung0106/SpeechSeparation](https://github.com/jihoojung0106/SpeechSeparation)
 
 ## 1. Introduction
@@ -34,31 +35,164 @@ We used the same architecture as [SGMSE](https://ieeexplore.ieee.org/stamp/stamp
 - VoxCeleb2: This dataset contains over 1 million utterances with the associated face tracks extracted from YouTube videos, with 5,994 identities in the training set and 118 identities in the test set. I used only the test set for the training, because the dataset is too big for my GPU.
 
 ### 3.2 Demo
+<style>
+.audio-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-<figure>
-  <audio controls>
-    <source src="/assets/audio/ss/output/5/A1.wav" type="audio/wav">
-  </audio>
-  <figcaption>Target Audio</figcaption>
-</figure>
+.audio-row figure {
+  display: inline-block;
+  width: 48%; /* 한 줄에 두 개의 figure가 들어가도록 설정 */
+  margin: 1%;
+  text-align: center;
+}
 
-<figure>
-  <audio controls>
-    <source src="/assets/audio/ss/output/5/B.wav" type="audio/wav">
-  </audio>
-  <figcaption>Mixing Audio</figcaption>
-</figure>
+.audio-row img {
+  width: 100%; /* 이미지가 figure 너비에 맞게 조정되도록 설정 */
+  height: auto;
+}
+</style>
 
-<figure>
-  <audio controls>
-    <source src="/assets/audio/ss/output/5/mix.wav" type="audio/wav">
-  </audio>
-  <figcaption>Mixed Audio</figcaption>
-</figure>
+- Example 1
+<div class="audio-row">
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/5/A1.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/5/A1.png" alt="Target Audio Spectrogram">
+    <figcaption>Target Audio</figcaption>
+  </figure>
 
-<figure>
-  <audio controls>
-    <source src="/assets/audio/ss/output/5/generated.wav" type="audio/wav">
-  </audio>
-  <figcaption>Separated Audio</figcaption>
-</figure>
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/5/B.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/5/B.png" alt="Mixing Audio Spectrogram">
+    <figcaption>Mixing Audio</figcaption>
+  </figure>
+
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/5/mix.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/5/mix.png" alt="Mixed Audio Spectrogram">
+    <figcaption>Mixed Audio</figcaption>
+  </figure>
+
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/5/generated.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/5/generated.png" alt="Separated Audio Spectrogram">
+    <figcaption>Separated Audio</figcaption>
+  </figure>
+</div>
+
+- Example 2
+<div class="audio-row">
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/3/A1.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/3/A1.png" alt="Target Audio Spectrogram">
+    <figcaption>Target Audio</figcaption>
+  </figure>
+
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/3/B.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/3/B.png" alt="Mixing Audio Spectrogram">
+    <figcaption>Mixing Audio</figcaption>
+  </figure>
+
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/3/mix.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/3/mix.png" alt="Mixed Audio Spectrogram">
+    <figcaption>Mixed Audio</figcaption>
+  </figure>
+
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/3/generated.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/3/generated.png" alt="Separated Audio Spectrogram">
+    <figcaption>Separated Audio</figcaption>
+  </figure>
+</div>
+
+
+- Example 3
+<div class="audio-row">
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/1/A1.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/1/A1.png" alt="Target Audio Spectrogram">
+    <figcaption>Target Audio</figcaption>
+  </figure>
+
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/1/B.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/1/B.png" alt="Mixing Audio Spectrogram">
+    <figcaption>Mixing Audio</figcaption>
+  </figure>
+
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/1/mix.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/1/mix.png" alt="Mixed Audio Spectrogram">
+    <figcaption>Mixed Audio</figcaption>
+  </figure>
+
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/1/generated.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/1/generated.png" alt="Separated Audio Spectrogram">
+    <figcaption>Separated Audio</figcaption>
+  </figure>
+</div>
+
+
+- Example 4
+<div class="audio-row">
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/2/A1.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/2/A1.png" alt="Target Audio Spectrogram">
+    <figcaption>Target Audio</figcaption>
+  </figure>
+
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/2/B.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/2/B.png" alt="Mixing Audio Spectrogram">
+    <figcaption>Mixing Audio</figcaption>
+  </figure>
+
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/2/mix.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/2/mix.png" alt="Mixed Audio Spectrogram">
+    <figcaption>Mixed Audio</figcaption>
+  </figure>
+
+  <figure>
+    <audio controls>
+      <source src="/assets/audio/ss/output/2/generated.wav" type="audio/wav">
+    </audio>
+    <img src="/assets/audio/ss/output/2/generated.png" alt="Separated Audio Spectrogram">
+    <figcaption>Separated Audio</figcaption>
+  </figure>
+</div>
