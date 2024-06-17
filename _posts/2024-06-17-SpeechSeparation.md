@@ -47,108 +47,28 @@ We used the same architecture as [SGMSE](https://ieeexplore.ieee.org/stamp/stamp
   <audio controls>
     <source src="/assets/audio/ss/output/5/A1.wav" type="audio/wav">
   </audio>
-  <figcaption>Caption for A1.wav</figcaption>
+  <figcaption>Target Audio</figcaption>
+</figure>
+
+<figure>
+  <audio controls>
+    <source src="/assets/audio/ss/output/5/B.wav" type="audio/wav">
+  </audio>
+  <figcaption>Mixing Audio</figcaption>
 </figure>
 
 <figure>
   <audio controls>
     <source src="/assets/audio/ss/output/5/mix.wav" type="audio/wav">
   </audio>
-  <figcaption>Caption for mix.wav</figcaption>
+  <figcaption>Mixed Audio</figcaption>
 </figure>
 
 <figure>
   <audio controls>
     <source src="/assets/audio/ss/output/5/generated.wav" type="audio/wav">
   </audio>
-  <figcaption>Caption for generated.wav</figcaption>
+  <figcaption>Separated Audio</figcaption>
 </figure>
 
 
-
-- Actions - South Of The Water (Train Dataset)
-<audio controls>
-  <source src="/assets/audio/train/Actions_-_South_Of_The_Water_18_mixed_gt.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/train/Actions_-_South_Of_The_Water_18_mixed.wav" type="audio/wav">
-</audio>
-
-- Alexander Ross - Goodbye Bolero (Train Dataset)
-<audio controls>
-  <source src="/assets/audio/train/Alexander_Ross_-_Goodbye_Bolero_31_mixed_gt.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/train/Alexander_Ross_-_Goodbye_Bolero_31_mixed.wav" type="audio/wav">
-</audio>
-
-- Music Delta - Britpop (Train Dataset)
-<audio controls>
-  <source src="/assets/audio/train/Music_Delta_-_Britpop_4_mixed_gt.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/train/Music_Delta_-_Britpop_4_mixed.wav" type="audio/wav">
-</audio>
-
-- Titanium - Haunted Age (Train Dataset)
-<audio controls>
-  <source src="/assets/audio/train/Titanium_-_Haunted_Age_24_mixed_gt.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/train/Titanium_-_Haunted_Age_24_mixed.wav" type="audio/wav">
-</audio>
-
-- Zeno - Signs (Test Dataset)
-<audio controls>
-  <source src="/assets/audio/test/Zeno_-_Signs_27_mixed_gt.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/test/Zeno_-_Signs_27_mixed.wav" type="audio/wav">
-</audio>
-
-- Enda Reilly - Cur An Long Ag Seol (Test Dataset)
-<audio controls>
-  <source src="/assets/audio/test/Enda_Reilly_-_Cur_An_Long_Ag_Seol_8_mixed_gt.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/test/Enda_Reilly_-_Cur_An_Long_Ag_Seol_8_mixed.wav" type="audio/wav">
-</audio>
-
-- Juliet's Rescue - Heartbeats (Test Dataset)
-<audio controls>
-  <source src="/assets/audio/test/Juliet's_Rescue_-_Heartbeats_29_mixed_gt.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/test/Juliet's_Rescue_-_Heartbeats_29_mixed.wav" type="audio/wav">
-</audio>
-
-- Signe Jakobsen - What Have You Done To Me (Test Dataset)
-<audio controls>
-  <source src="/assets/audio/test/Signe_Jakobsen_-_What_Have_You_Done_To_Me_23_mixed_gt.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/test/Signe_Jakobsen_-_What_Have_You_Done_To_Me_23_mixed.wav" type="audio/wav">
-</audio>
-
-
-- Triviul feat. The Fiend - Widow (Test Dataset)
-<audio controls>
-  <source src="/assets/audio/test/Triviul_feat._The_Fiend_-_Widow_16_mixed_gt.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/test/Triviul_feat._The_Fiend_-_Widow_16_mixed.wav" type="audio/wav">
-</audio>
-
-
-
-
-## 4. Discussion and Future Works
-
-### 4.1 Discussion 
-The results were quite overfitted to the training dataset. 
-There is an issue with the alignment of the rhythm of vocals and the generated music.
-### 4.2 Possible Reasons for Undesirable Result
-The reason why the model doesn’t work properly is that we didn’t predict instrumental coarse features from the input vocals. The original SingSong paper predicts instrumental semantic and coarse tokens from vocal semantic tokens, while we predict only instrumental semantic tokens from vocal semantic and coarse tokens. This decision was made because we aimed to reuse the pretrained weights released by open-musiclm, but might causes alignment of rhythm issue.
-### 4.3 Future works
-Include prediction of instrumental coarse features alongside vocals coarse, vocals semantic, and instrumental semantic. 
-Evaluate the model using the FAD score.
