@@ -50,6 +50,12 @@
     gap: 16px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
+  .cols_4 {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, 1fr); /* 4개씩 */
+}
+
   .col{display:flex;flex-direction:column;gap:12px}
   .col h3{font-weight:800;text-align:center;margin:0 0 4px}
   .card{border:1px solid #eee;border-radius:14px;padding:12px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
@@ -206,7 +212,6 @@
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h1 class="title is-2">Audio Samples</h1>
-        
           <h2 class="title is-3">Medleyvox Duet Samples</h2>
           <div class="sample-section">
             <div class="content has-text-centered">
@@ -219,7 +224,7 @@
                     <source src="static/audio/duet/1/LizNelson_Rainfall_-_seg_1.wav" type="audio/wav">
                   </audio>
                 </div>
-                <div class="cols">
+                <div class="cols_4">
                   <!-- Ground Truth -->
                   <div class="col">
                     <h4>Ground Truth</h4>
@@ -253,7 +258,21 @@
                       <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
                     </div>
                   </div>
-
+                  <div class="col">
+                    <h4>TIGER</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/1/tiger/s0_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/1/tiger/s1_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
                   <!-- TIGER (Proposed) -->
                   <div class="col">
                     <h4>Proposed</h4>
@@ -280,7 +299,7 @@
                     <source src="static/audio/duet/2/NightPanther_Fire_-_seg_27.wav" type="audio/wav">
                   </audio>
                 </div>
-                <div class="cols">
+                <div class="cols_4">
                   <!-- Ground Truth -->
                   <div class="col">
                     <h4>Ground Truth</h4>
@@ -314,7 +333,22 @@
                       <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
                     </div>
                   </div>
-
+                  <!-- TF-GridNet -->
+                  <div class="col">
+                    <h4>TIGER</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/2/tiger/s0_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/2/tiger/s1_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
                   <!-- TIGER (Proposed) -->
                   <div class="col">
                     <h4>Proposed</h4>
@@ -341,7 +375,7 @@
                     <source src="static/audio/duet/3/Meaxic_TakeAStep_-_seg_21.wav" type="audio/wav">
                   </audio>
                 </div>
-                <div class="cols">
+                <div class="cols_4">
                   <!-- Ground Truth -->
                   <div class="col">
                     <h4>Ground Truth</h4>
@@ -375,7 +409,98 @@
                       <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
                     </div>
                   </div>
+                   <div class="col">
+                    <h4>TIGER</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/3/tiger/s0_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/3/tiger/s1_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
+                  <!-- TIGER (Proposed) -->
+                  <div class="col">
+                    <h4>Proposed</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/unison/1/proposed1.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/unison/1/proposed2.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
+                </div>
+                <!-- sample1 끝 -->
 
+
+                <!-- sample1 시작 -->
+                <h3 class="section-title"> 🎵 MedleyVox Duet Sample4</h3>
+                <h4>Mixture</h4>
+                <div class="mixture">
+                  <audio controls>
+                    <source src="static/audio/duet/4/LizNelson_ImComingHome_-_seg_10 (1).wav" type="audio/wav">
+                  </audio>
+                </div>
+                <div class="cols_4">
+                  <!-- Ground Truth -->
+                  <div class="col">
+                    <h4>Ground Truth</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/4/LizNelson_ImComingHome_RAW_01_01_-_seg_10.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/4/LizNelson_ImComingHome_RAW_04_01_-_seg_10.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
+
+                  <!-- TF-GridNet -->
+                  <div class="col">
+                    <h4>MedleyVox</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/4/LizNelson_ImComingHome_RAW_01_01_-_seg_10_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/4/LizNelson_ImComingHome_RAW_04_01_-_seg_10_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
+                   <div class="col">
+                    <h4>TIGER</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/4/tiger/s0_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/duet/4/tiger/s1_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
                   <!-- TIGER (Proposed) -->
                   <div class="col">
                     <h4>Proposed</h4>
@@ -410,7 +535,7 @@
                     <source src="static/audio/unison/1/CassandraJenkins_PerfectDay_-_seg_11.wav" type="audio/wav">
                   </audio>
                 </div>
-                <div class="cols">
+                <div class="cols_4">
                   <!-- Ground Truth -->
                   <div class="col">
                     <h4>Ground Truth</h4>
@@ -445,6 +570,22 @@
                     </div>
                   </div>
 
+                  <div class="col">
+                    <h4>TIGER</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/unison/1/tiger/spk1.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/unison/1/tiger/spk2.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
+
                   <!-- TIGER (Proposed) -->
                   <div class="col">
                     <h4>Proposed</h4>
@@ -471,7 +612,7 @@
                     <source src="static/audio/unison/2/TheTonTons_Lush_-_seg_10.wav" type="audio/wav">
                   </audio>
                 </div>
-                <div class="cols">
+                <div class="cols_4">
                   <!-- Ground Truth -->
                   <div class="col">
                     <h4>Ground Truth</h4>
@@ -505,7 +646,22 @@
                       <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
                     </div>
                   </div>
-
+                  <!-- TF-GridNet -->
+                  <div class="col">
+                    <h4>TIGER</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/unison/2/tiger/s0_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/unison/2/tiger/s1_estimate.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
                   <!-- TIGER (Proposed) -->
                   <div class="col">
                     <h4>Proposed</h4>
@@ -532,7 +688,7 @@
                     <source src="static/audio/unison/3/PeterMatthewBauer_YouAlwaysLookForSomeoneLost_-_seg_8.wav" type="audio/wav">
                   </audio>
                 </div>
-                <div class="cols">
+                <div class="cols_4">
                   <!-- Ground Truth -->
                   <div class="col">
                     <h4>Ground Truth</h4>
@@ -566,7 +722,22 @@
                       <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
                     </div>
                   </div>
-
+                  <!-- TF-GridNet -->
+                  <div class="col">
+                    <h4>TIGER</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/unison/3/tiger/spk1.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/unison/3/tiger/spk2.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
                   <!-- TIGER (Proposed) -->
                   <div class="col">
                     <h4>Proposed</h4>
@@ -594,7 +765,7 @@
             <div class="content has-text-centered">
               <div class="demo-wrap">
                 <!-- sample1 시작 -->
-                <h3 class="section-title"> 🎵 Pop Sample1</h3>
+                <h3 class="section-title"> 🎵 Pop Sample1: Jason Mraz and Colbie Caillat - Lucky</h3>
                 <h4>Mixture</h4>
                 <div class="mixture">
                   <audio controls>
@@ -618,7 +789,21 @@
                       <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
                     </div>
                   </div>
-
+                   <div class="col">
+                    <h4>TIGER</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/pop/1/tiger/spk1.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/pop/1/tiger/spk2.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
                   <!-- TIGER (Proposed) -->
                   <div class="col">
                     <h4>Proposed</h4>
@@ -638,7 +823,7 @@
                 </div>
                 <!-- sample1 끝 -->
                 <!-- sample1 시작 -->
-                <h3 class="section-title"> 🎵 Pop Sample2</h3>
+                <h3 class="section-title"> 🎵 Pop Sample2: Shawn Mendes and Camila Cabello - Señorita </h3>
                 <h4>Mixture</h4>
                 <div class="mixture">
                   <audio controls>
@@ -663,7 +848,21 @@
                       <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
                     </div>
                   </div>
-
+                  <div class="col">
+                    <h4>TIGER</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/pop/2/tiger/spk2.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/pop/2/tiger/spk1.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
                   <!-- TIGER (Proposed) -->
                   <div class="col">
                     <h4>Proposed</h4>
@@ -683,7 +882,7 @@
                 </div>
                 <!-- sample1 끝 -->
                 <!-- sample1 시작 -->
-                <h3 class="section-title"> 🎵 Pop Sample3</h3>
+                <h3 class="section-title"> 🎵 Pop Sample3 : Lady Gaga and Tony Bennett - I’ve Got You Under My Skin</h3>
                 <h4>Mixture</h4>
                 <div class="mixture">
                   <audio controls>
@@ -708,7 +907,21 @@
                       <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
                     </div>
                   </div>
-
+                   <div class="col">
+                    <h4>TIGER</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/pop/3/tiger/spk1.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/pop/3/tiger/spk2.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
                   <!-- TIGER (Proposed) -->
                   <div class="col">
                     <h4>Proposed</h4>
@@ -728,7 +941,7 @@
                 </div>
                 <!-- sample1 끝 -->
                  <!-- sample1 시작 -->
-                <h3 class="section-title"> 🎵 Pop Sample4</h3>
+                <h3 class="section-title"> 🎵 Pop Sample4 : Verandah Project (Dong Ryul Kim and Sang-soon Lee) - Bike Riding</h3>
                 <h4>Mixture</h4>
                 <div class="mixture">
                   <audio controls>
@@ -752,7 +965,21 @@
                       <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
                     </div>
                   </div>
-
+                  <div class="col">
+                    <h4>TIGER</h4>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/pop/4/tiger/spk1.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                    <div class="card">
+                      <audio controls>
+                        <source src="static/audio/pop/4/tiger/spk2.wav" type="audio/wav">
+                      </audio>
+                      <!-- <img src="static/img/unison/1/proposed2.png" alt="TIGER est2 spectrogram">-->
+                    </div>
+                  </div>
                   <!-- TIGER (Proposed) -->
                   <div class="col">
                     <h4>Proposed</h4>
