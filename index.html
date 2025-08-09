@@ -64,10 +64,11 @@
   @media (max-width: 920px){ .cols{grid-template-columns:1fr 1fr} }
   @media (max-width: 640px){ .cols{grid-template-columns:1fr} }
   .sample-section {
-    border: 3px solid #ccc;       /* 테두리 */
+    border: 3px solid;       /* 테두리 */
     border-radius: 12px;          /* 모서리 둥글게 */
     padding: 20px;                /* 안쪽 여백 */
     margin-bottom: 40px;          /* 섹션 간 간격 */
+    border-image: linear-gradient(45deg, #FFCAD5, #93DAFF) 1;
      /* 살짝 배경색 */
   }
   .sample-section h2 {
