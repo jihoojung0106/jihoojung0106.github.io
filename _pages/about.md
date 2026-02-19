@@ -24,8 +24,7 @@ Email: *kyungmnlee (at) kaist (dot) ac (dot) kr* \| <a href="images/Curriculum_V
 
 # 📖 Educations
 - *2024.08 - Present*, KAIST, M.S. in Electrical Engineering.
-- *2019.03 – 2024.08*, Seoul National University, B.S. in Economics and Computer Science (double major),<br>
-<span style="margin-left: 16ch;">*summa cum laude*</span>
+- *2019.03 – 2024.08*, Seoul National University, B.S. in Economics, Computer Science (double major),*summa cum laude*
 
 
 
