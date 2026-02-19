@@ -103,7 +103,14 @@ Email: *kyungmnlee (at) kaist (dot) ac (dot) kr* \| <a href="images/Curriculum_V
 <u>Ji-Hoon Kim</u>,
 <u>Doyeop Kwak</u>, <u>Junwon Lee</u>, <u>Juhan Nam</u>, <u>Joon Son Chung</u>
 <br>
-[paper(https://arxiv.org/abs/2601.12802)|code(https://github.com/jihoojung0106/unmixx)|demo(https://unmixx.github.io/)]
+[
+        <a href="https://arxiv.org/abs/2601.12802">paper</a>
+        |
+        <a href="https://github.com/jihoojung0106/unmixx">code</a>
+        |
+        <a href="https://unmixx.github.io/">demo</a>
+        ]
+
 <div style="margin-top: 15px;"></div>
 
 </div>
