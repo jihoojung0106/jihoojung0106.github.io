@@ -18,7 +18,6 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I am Master student at KAIST advised by professor <a href="https://mmai.io/joon/">Joon Son Chung</a>. 
 
-I am a Master’s student at KAIST under the supervision of Prof. Joon Son Chung.
 My research centers on speech separation, audio-visual large language models (AV-LLMs), AI safety, and the interpretability of large-scale AI systems.
 <!-- 
 Email: *kyungmnlee (at) kaist (dot) ac (dot) kr* \| <a href="images/Curriculum_Vitae__Oct_2025_.pdf">Curriculum Vitae</a> -->
