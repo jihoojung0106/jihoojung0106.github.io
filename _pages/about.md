@@ -103,6 +103,7 @@ Email: *kyungmnlee (at) kaist (dot) ac (dot) kr* \| <a href="images/Curriculum_V
 <u>Ji-Hoon Kim</u>,
 <u>Doyeop Kwak</u>, <u>Junwon Lee</u>, <u>Juhan Nam</u>, <u>Joon Son Chung</u>
 <br>
+<a href="https://2026.ieeeicassp.org"><b>ICASSP 2026</b></a><br />
 [
         <a href="https://arxiv.org/abs/2601.12802">paper</a>
         |
