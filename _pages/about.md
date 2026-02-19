@@ -31,10 +31,10 @@ Email: *kyungmnlee (at) kaist (dot) ac (dot) kr* \| <a href="images/Curriculum_V
 
 # 📝 Publications
 
-<div style="margin-bottom: 12px;">
+<!-- <div style="margin-bottom: 12px;">
     <button id="btn-selected-pubs" class="pub-toggle-btn" onclick="showPublications('selected')">Selected</button>
     <button id="btn-all-pubs" class="pub-toggle-btn" onclick="showPublications('all')">All</button>
-</div>
+</div> -->
 
 <style>
   #selected-publications a,
@@ -100,8 +100,11 @@ Email: *kyungmnlee (at) kaist (dot) ac (dot) kr* \| <a href="images/Curriculum_V
 <a class="paper-title" href="https://arxiv.org/abs/2601.12802">UNMIXX: Untangling Highly Correlated Singing Voices Mixtures
 </a><br>
 <u><strong>Jihoo Jung</strong></u>,
-<u>Ji-Hoon Kim</u>,
-<u>Doyeop Kwak</u>, <u>Junwon Lee</u>, <u>Juhan Nam</u>, <u>Joon Son Chung</u>
+Ji-Hoon Kim,
+Doyeop Kwak,
+Junwon Lee,
+Juhan Nam,
+Joon Son Chung
 <br>
 <a href="https://2026.ieeeicassp.org"><b>ICASSP 2026</b></a><br />
 [
