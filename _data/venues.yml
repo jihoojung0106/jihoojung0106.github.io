@@ -7,3 +7,15 @@
 
 "Vision":
   color: "#009f36"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#6b3526"
+
+"ICML":
+  url: https://icml.cc/
+  color: "#003b71"
+
+"ICASSP":
+  url: https://2026.ieeeicassp.org/
+  color: "#6b3526"

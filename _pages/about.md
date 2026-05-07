@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info:
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -24,30 +24,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a student/researcher at Your Lab, Your University. My primary research interests include topic one, topic two, and topic three. Previously, I worked on project or experience, and I am interested in building systems that connect research with practical impact.
-
----
+I am currently a master's student at [MMAI](https://mmai.io/), KAIST. My primary research interests include Audio-Visual LLMs, mechanistic interpretability, and audio separation.
 
 ## Education
 
-**Master's Course in Your Program**
+- Korea Advanced Institute of Science and Technology (KAIST), South Korea (Aug. 2024 - Present)
+  - M.S in Electrical Engineering (advisor: Prof. Joon Son Chung)
 
-KAIST
-
-- MMAI, KAIST
-- Supervisor: Joon Son Chung
-- August. 2024 ~ Present
-
----
-
-**B.S. in Economics, Computer Science(Double Major)**
-
-Seoul National University
-
-- Summacum laude
-- Mar. 2019 ~ July. 2024
-
----
+- Seoul National University, South Korea (Mar. 2019 - Jul. 2024)
+  - B.S. in Economics and Computer Science (Double Major)
+  - Summa cum laude
 
 ## Research Interests
 

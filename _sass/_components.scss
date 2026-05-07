@@ -108,16 +108,33 @@ ul.task-list input[type="checkbox"] {
 }
 
 .post article h2 {
-  border-top: 1px solid var(--global-divider-color);
+  color: #003b71;
   font-size: 2rem;
-  font-weight: 400;
-  margin-top: 1.5rem;
-  padding-top: 1.4rem;
+  font-weight: 700;
+  margin-top: 1.8rem;
+  padding-top: 0;
 }
 
 .post article hr {
   border-top: 1px solid var(--global-divider-color);
   margin: 1.4rem 0;
+}
+
+.post article ul {
+  margin-bottom: 1.5rem;
+}
+
+.post article > ul > li {
+  margin-bottom: 1.35rem;
+}
+
+.post article ul ul {
+  margin-bottom: 0;
+  margin-top: 0.15rem;
+}
+
+.post article ul ul li {
+  margin-bottom: 0.25rem;
 }
 
 @media (min-width: 768px) {
