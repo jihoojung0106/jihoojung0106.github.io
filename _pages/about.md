@@ -24,18 +24,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a master's student at [MMAI](https://mmai.io/), KAIST. My primary research interests include Audio-Visual LLMs, mechanistic interpretability, and audio separation.
+I am currently a master's student at [MMAI](https://mmai.io/), KAIST, advised by [Professor Joon Son Chung](https://mm.kaist.ac.kr/joon/). My primary research interests include Audio-Visual LLMs, mechanistic interpretability, and audio separation.
 
 ## Education
 
 - Korea Advanced Institute of Science and Technology (KAIST), South Korea (Aug. 2024 - Present)
-  - M.S in Electrical Engineering (advisor: Prof. Joon Son Chung)
+  - M.S in Electrical Engineering (advisor: [Prof. Joon Son Chung](https://mm.kaist.ac.kr/joon/))
 
 - Seoul National University, South Korea (Mar. 2019 - Jul. 2024)
-  - B.S. in Economics and Computer Science (Double Major)
+  - B.S. in Economics and Computer Science (double major)
   - Summa cum laude
-
-## Research Interests
-
-- Audio-Visual LLM
-- Audio Separation
