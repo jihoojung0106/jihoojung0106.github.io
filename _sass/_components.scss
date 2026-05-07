@@ -90,6 +90,49 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.post .profile.float-right {
+  margin-left: 2.5rem;
+}
+
+.post .profile img {
+  border-radius: 4px;
+}
+
+.post-header .post-title {
+  font-weight: 400;
+}
+
+.post article {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.post article h2 {
+  border-top: 1px solid var(--global-divider-color);
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 1.5rem;
+  padding-top: 1.4rem;
+}
+
+.post article hr {
+  border-top: 1px solid var(--global-divider-color);
+  margin: 1.4rem 0;
+}
+
+@media (min-width: 768px) {
+  .post .profile {
+    width: 34%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .post .profile.float-right {
+    float: none !important;
+    margin-left: 0;
+  }
+}
+
 // CV
 
 .cv {
