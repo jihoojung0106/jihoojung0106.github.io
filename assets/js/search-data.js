@@ -456,4 +456,11 @@ ninja.data = [{
         handler: () => {
           window.open("https://scholar.google.com/citations?user=Vawl0tQAAAAJ", "_blank");
         },
+      },{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/cv.pdf", "_blank");
+        },
       },];
