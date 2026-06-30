@@ -182,6 +182,19 @@
   }
 }
 
+.selected-publications-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.75rem;
+
+  .selected-publications-summary {
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    font-weight: 400;
+  }
+}
+
 .citation,
 .citation-number {
   color: var(--global-theme-color);
