@@ -28,12 +28,12 @@ I am currently a master's student at [MMAI](https://mmai.io/), KAIST, advised by
 
 ## Education
 
-- Korea Advanced Institute of Science and Technology (KAIST), South Korea (Sep. 2026 -, Expected)
+- **Korea Advanced Institute of Science and Technology (KAIST)**, South Korea (Sep. 2026 -, Expected)
   - Ph.D. in Artificial Intelligence (Advisor: [Prof. Joon Son Chung](https://mm.kaist.ac.kr/joon/))
 
-- Korea Advanced Institute of Science and Technology (KAIST), South Korea (Aug. 2024 - Aug. 2026, Expected)
+- **Korea Advanced Institute of Science and Technology (KAIST)**, South Korea (Aug. 2024 - Aug. 2026, Expected)
   - M.S. in Electrical Engineering (Advisor: [Prof. Joon Son Chung](https://mm.kaist.ac.kr/joon/))
 
-- Seoul National University, South Korea (Mar. 2019 - Jul. 2024)
+- **Seoul National University**, South Korea (Mar. 2019 - Jul. 2024)
   - B.S. in Economics and Computer Science (double major)
   - Summa cum laude
