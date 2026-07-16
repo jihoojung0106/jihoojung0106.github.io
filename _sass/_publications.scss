@@ -87,8 +87,8 @@
         }
 
         > span.more-authors {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
+          color: var(--global-theme-color);
+          border-bottom: 1px dashed var(--global-theme-color);
           cursor: pointer;
 
           &:hover {
