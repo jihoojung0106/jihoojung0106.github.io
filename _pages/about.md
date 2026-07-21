@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a master's student at [MMAI](https://mmai.io/), KAIST, advised by [Professor Joon Son Chung](https://mm.kaist.ac.kr/joon/). My primary research interests include Audio-Visual LLMs, mechanistic interpretability, and audio separation.
+I am currently a Ph.D. student at [MMAI](https://mmai.io/), KAIST, advised by [Professor Joon Son Chung](https://mm.kaist.ac.kr/joon/). I am interested in understanding and reasoning about the real world through audio, with broader research interests in audio-visual LLMs, audio separation, and agentic models.
 
 ## Education
 
