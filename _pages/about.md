@@ -24,14 +24,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a Ph.D. student at [MMAI](https://mmai.io/), KAIST, advised by [Professor Joon Son Chung](https://mm.kaist.ac.kr/joon/). I am interested in understanding and reasoning about the real world through audio, with broader research interests in audio-visual LLMs, audio separation, and agentic models.
+I am currently a Ph.D. student at [MMAI](https://mmai.io/), KAIST, advised by [Professor Joon Son Chung](https://mm.kaist.ac.kr/joon/). I am interested in understanding and reasoning about the real world through audio, with broader research interests in audio-visual LLMs, agentic systems, and joint audio-visual generative models.
 
 ## Education
 
-- Korea Advanced Institute of Science and Technology (**KAIST**), South Korea (Sep. 2026 -, Expected)
+- Korea Advanced Institute of Science and Technology (**KAIST**), South Korea (Sep. 2026 -)
   - Ph.D. in Artificial Intelligence (Advisor: [Prof. Joon Son Chung](https://mm.kaist.ac.kr/joon/))
 
-- Korea Advanced Institute of Science and Technology (**KAIST**), South Korea (Aug. 2024 - Aug. 2026, Expected)
+- Korea Advanced Institute of Science and Technology (**KAIST**), South Korea (Aug. 2024 - Aug. 2026)
   - M.S. in Electrical Engineering (Advisor: [Prof. Joon Son Chung](https://mm.kaist.ac.kr/joon/))
 
 - **Seoul National University**, South Korea (Mar. 2019 - Jul. 2024)
