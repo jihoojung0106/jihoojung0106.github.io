@@ -65,8 +65,9 @@ layout: default
     {% if page.selected_papers %}
       <h2 class="selected-publications-heading">
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-        <span class="selected-publications-summary">2 papers | 2 first-authored</span>
+        <span class="selected-publications-summary">3 papers · 2 first-author papers</span>
       </h2>
+      {% include publication_legend.liquid %}
       {% include selected_papers.liquid %}
     {% endif %}
 

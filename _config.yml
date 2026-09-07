@@ -324,6 +324,7 @@ filtered_bibtex_keywords:
     pmid,
     poster,
     preview,
+    pub_label,
     selected,
     slides,
     supp,

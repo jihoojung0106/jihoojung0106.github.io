@@ -13,6 +13,8 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+{% include publication_legend.liquid %}
+
 <div class="publications">
 
 {% bibliography %}

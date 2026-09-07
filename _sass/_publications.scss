@@ -69,6 +69,12 @@
 
       .title {
         font-weight: bolder;
+
+        .publication-label {
+          color: var(--global-theme-color);
+          margin-right: 0.2rem;
+          white-space: nowrap;
+        }
       }
 
       .author {
@@ -193,6 +199,16 @@
     font-size: 0.85rem;
     font-weight: 400;
   }
+}
+
+.publication-legend {
+  color: var(--global-text-color-light);
+  font-size: 0.8rem;
+  margin: -0.25rem 0 1rem;
+}
+
+.publication-legend + .publications {
+  margin-top: 1rem;
 }
 
 .citation,
