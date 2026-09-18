@@ -41,6 +41,12 @@
 
       .preview {
         display: inline-block;
+        width: 100%;
+        // fixed wide box (same proportions as icassp26.png) so every entry
+        // gets the same thumbnail height; taller figures are center-cropped
+        aspect-ratio: 2.2 / 1;
+        object-fit: cover;
+        object-position: center;
       }
 
       .abbr {
