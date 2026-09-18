@@ -61,14 +61,18 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2 class="selected-publications-heading">
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-        <span class="selected-publications-summary">4 papers · 2 first-author papers</span>
+    <!-- Publications -->
+    {% if page.publications %}
+      <h2 class="publications-heading">
+        publications
+        <span class="publications-summary">4 papers · 2 first-author</span>
+        <div class="publications-filter" role="group" aria-label="Filter publications">
+          <button type="button" class="active" data-filter="all" aria-pressed="true">all</button>
+          <button type="button" data-filter="first-author" aria-pressed="false">first-author</button>
+        </div>
       </h2>
       {% include publication_legend.liquid %}
-      {% include selected_papers.liquid %}
+      {% include publications_list.liquid %}
     {% endif %}
 
     <!-- Social -->

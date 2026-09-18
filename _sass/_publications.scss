@@ -188,16 +188,45 @@
   }
 }
 
-.selected-publications-heading {
+.publications-heading {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   gap: 0.35rem 0.75rem;
 
-  .selected-publications-summary {
+  .publications-summary {
     color: var(--global-text-color-light);
     font-size: 0.85rem;
     font-weight: 400;
+  }
+
+  .publications-filter {
+    display: inline-flex;
+    margin-left: auto;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    overflow: hidden;
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    button {
+      background: none;
+      border: 0;
+      color: var(--global-text-color-light);
+      cursor: pointer;
+      font: inherit;
+      line-height: 1.5;
+      padding: 0.15rem 0.65rem;
+
+      &:hover:not(.active) {
+        color: var(--global-theme-color);
+      }
+
+      &.active {
+        background-color: var(--global-theme-color);
+        color: var(--global-bg-color);
+      }
+    }
   }
 }
 

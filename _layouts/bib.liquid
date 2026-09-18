@@ -1,6 +1,15 @@
 ---
 ---
-<div class="row">
+{%- assign is_first_author = false -%}
+{%- for author in entry.author_array -%}
+  {%- assign author_last_clean = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+  {%- if site.scholar.last_name contains author_last_clean and site.scholar.first_name contains author.first -%}
+    {%- if forloop.first or author.last contains '*' or author.last contains '∗' -%}
+      {%- assign is_first_author = true -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+<div class="row" data-first-author="{{ is_first_author }}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -392,7 +401,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-      {% endhighlight %}
+        {% endhighlight %}
       </div>
     {% endif %}
 
