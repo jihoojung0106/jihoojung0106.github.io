@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="#">MMAI</a>, KAIST
+subtitle: PhD student, KAIST
 
 profile:
   align: right
