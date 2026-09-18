@@ -63,14 +63,13 @@ layout: default
 
     <!-- Publications -->
     {% if page.publications %}
-      <h2 class="publications-heading">
-        publications
-        <span class="publications-summary">4 papers · 2 first-author</span>
+      <div class="publications-header">
+        <h2>Publications</h2>
         <div class="publications-filter" role="group" aria-label="Filter publications">
-          <button type="button" class="active" data-filter="all" aria-pressed="true">all</button>
-          <button type="button" data-filter="first-author" aria-pressed="false">first-author</button>
+          <button type="button" class="active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="first-author" aria-pressed="false">First-author</button>
         </div>
-      </h2>
+      </div>
       {% include publication_legend.liquid %}
       {% include publications_list.liquid %}
     {% endif %}
