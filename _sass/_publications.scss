@@ -83,6 +83,10 @@
         }
       }
 
+      .periodical {
+        font-size: 0.95rem;
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
@@ -207,6 +211,19 @@
     margin: 0;
   }
 
+  .publications-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.3rem;
+    margin-left: auto;
+  }
+
+  .publications-summary {
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+  }
+
   .publications-filter {
     display: inline-flex;
     padding: 2px;
@@ -245,15 +262,6 @@
   color: var(--global-text-color-light);
   font-size: 0.8rem;
   margin: 0.5rem 0 1rem;
-
-  .publications-summary {
-    color: var(--global-text-color);
-  }
-
-  .publication-legend-sep {
-    margin: 0 0.35rem;
-    opacity: 0.5;
-  }
 }
 
 .publication-legend + .publications {
