@@ -52,6 +52,16 @@
       .abbr {
         margin-bottom: 0.5rem;
 
+        &.publication-type-c abbr {
+          background-color: var(--global-theme-color) !important;
+          color: v.$white-color !important;
+        }
+
+        &.publication-type-p abbr {
+          background-color: v.$grey-color !important;
+          color: v.$white-color !important;
+        }
+
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);

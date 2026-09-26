@@ -11,7 +11,8 @@
 {%- endfor -%}
 <div class="row" data-first-author="{{ is_first_author }}">
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+    {% assign publication_type = entry.pub_label | slice: 0, 1 | downcase %}
+    <div class="col col-sm-2 abbr publication-type-{{ publication_type }}">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
@@ -401,7 +402,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
+      {% endhighlight %}
       </div>
     {% endif %}
 
