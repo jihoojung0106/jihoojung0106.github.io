@@ -450,10 +450,17 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=Vawl0tQAAAAJ", "_blank");
         },
       },{
+        id: 'social-semanticscholar',
+        title: 'Semantic Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.semanticscholar.org/author/Jihoo-Jung/2405846316", "_blank");
+        },
+      },{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/cv.pdf", "_blank");
+          window.open("https://drive.google.com/file/d/1SmJWvVxDOFGUMxZIUwss8tTNd_RZRKJD/view?usp=sharing", "_blank");
         },
       },];
